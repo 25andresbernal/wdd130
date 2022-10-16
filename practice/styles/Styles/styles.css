@@ -3,15 +3,19 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
 }
 p {
     width: 80%;
 }
 a {
     font-size: 1.5em;
+    color: white;
+    padding: 25px;
 }
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 nav, footer {
     width: 80%;
@@ -21,7 +25,7 @@ nav, footer {
 nav, footer {
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    padding: 25px;
 }
 main p {
     width: 80%;
@@ -35,4 +39,10 @@ footer p {
 a:hover {
     background-color: white;
     color: steelblue;
+}
+nav {
+    padding: 25px;
+}
+body {
+    margin: 0
 }
