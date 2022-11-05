@@ -63,6 +63,8 @@ nav a:hover {
     line-height: 1.5em;
     padding: 35px;
     margin: 200px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 footer {
     background-color: #B6B8D6;
@@ -186,13 +188,15 @@ nav {
     grid-row: 4/9;
 }
 .mountains {
-    grid-column: 2/7;
+    grid-column: 2/10;
     grid-row: 5/8;
     margin-top: 200px;
+    width: 100%;
 }
 .msg {
-    grid-column: 6/10;
+    grid-column: 4/10;
     grid-row: 6/7;
+    width: 100%;
 }
 footer {
     display: flex;
