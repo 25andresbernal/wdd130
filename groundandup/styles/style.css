@@ -167,7 +167,7 @@ nav {
     width: 100%;
 }
 #stairs-img {
-    align-content: left;
+    align-content: center;
     width: 10%;
 }
 .home-grid {
@@ -211,7 +211,34 @@ nav {
 .msgFAQ3 {
     grid-row: 4/5;
 }
-.msgFAQ1, .msgFAQ2, .msgFAQ3 {
+.msgFAQ4 {
+    grid-row: 5/6;
+}
+.msgFAQ5 {
+    grid-row: 6/7;
+}
+.msgFAQ6 {
+    grid-row: 7/8;
+}
+.msgFAQ7 {
+    grid-row: 8/9;
+}
+.msgFAQ8 {
+    grid-row: 9/10;
+}
+.msgFAQ9 {
+    grid-row: 10/11;
+}
+.msgFAQ10 {
+    grid-row: 11/12;
+}
+.msgFAQ11 {
+    grid-row: 12/13;
+}
+.msgFAQ12 {
+    grid-row: 13/14;
+}
+.msgFAQ1, .msgFAQ2, .msgFAQ3, .msgFAQ4, .msgFAQ5, .msgFAQ6, .msgFAQ7, .msgFAQ8, .msgFAQ9, .msgFAQ10, .msgFAQ11, .msgFAQ12 {
     grid-column: 1/11;
     box-shadow: 5px 5px 10px black;
     background-color: #868A6C;
